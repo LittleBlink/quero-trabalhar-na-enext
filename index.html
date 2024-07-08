@@ -9,31 +9,42 @@
   <body>
     <header>
       <div class="headerContent">
-        <nav class="menu">
-          <input
-            type="search"
-            name="searchInput"
-            id="searchInput"
-            placeholder="Search our stock"
-          />
-          <ul class="menuList">
-            <li>Potions</li>
-            <li>Ingredients</li>
-            <li>Books</li>
-            <li>Supplies</li>
-            <li>Charms</li>
-            <li>Clearance!</li>
-          </ul>
-          <div class="loginContent">
-            <p><a href="#">Sing In</a> or <a href="#">Sing Up</a></p>
-          </div>
-        </nav>
+        <div class="menuContent">
+          <img src="assets/svg/hamburger.svg" alt="menu Icon" />
+          <nav class="menu">
+            <input
+              type="search"
+              name="searchInput"
+              id="searchInput"
+              placeholder="Search our stock"
+            />
+            <ul class="menuList">
+              <li>Potions</li>
+              <li>Ingredients</li>
+              <li>Books</li>
+              <li>Supplies</li>
+              <li>Charms</li>
+              <li>Clearance!</li>
+            </ul>
+            <div class="loginContent">
+              <p><a href="#">Sing In</a> or <a href="#">Sing Up</a></p>
+            </div>
+          </nav>
+        </div>
         <div class="logoContent">
           <h1>MERLIN'S POTION</h1>
+          <p>fine potions since 1026</p>
         </div>
         <div class="bagContent">
-          <h1>Bag</h1>
+          <img
+            src="assets/icons/icons8-cauldron-30.png"
+            alt="icone de carrinho"
+          />
+          <h1>BAG: <span id="cartCount">1</span></h1>
         </div>
+      </div>
+      <div class="messageAlert">
+        <h1>Free shipping on orders over $50</h1>
       </div>
     </header>
   </body>
