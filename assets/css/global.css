@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red-text: #d73a1e;
+  --purple-text: #6c537f;
+  --gray-text: #666666;
+  --purple-menu: #523468;
+  --li-selected: #422a53;
+  --cream-background: #e6e6e6;
+  --btn-orange: #d73a1e;
+  --orange-text: #d73a2a;
+}
