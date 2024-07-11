@@ -84,3 +84,34 @@ header {
   font-style: italic;
   text-align: center;
 }
+
+main {
+  padding: 10px;
+}
+
+#potions {
+  text-align: center;
+}
+
+.productContent {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.product {
+  margin-bottom: 5vh;
+}
+
+.product img {
+  width: 45vw;
+}
+
+.product h3 {
+  font-size: 0.9em;
+}
+
+.price {
+  color: var(--orange-text);
+}
